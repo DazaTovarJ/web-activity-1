@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto | ProDev - Software de Calidad</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+
+<body>
+  <header>
+    <h1>ProDev</h1>
+    <nav>
+      <ul>
+        <li><a class="nav-list-item" href="https://www.google.com">Inicio</a></li>
+        <li><a class="nav-list-item" href="https://www.facebook.com">Sobre Nostros</a></li>
+        <li><a class="nav-list-item" href="https://www.youtube.com">Equipo</a></li>
+        <li><a class="nav-list-item" href="https://www.twitter.com">Proyectos</a></li>
+        <li><a class="nav-list-item" href="https://www.linkedin.com">Blog</a></li>
+        <li><a class="nav-list-item" href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <section class="contact-section">
+      <h2 id="contacto">Contáctanos</h2>
+      <div class="contact-container">
+        <p>
+          En ProDev, creemos en un <strong>desarrollo de software de calidad, accesible y acorde a tus
+            necesidades</strong>.
+          Contamos con un
+          equipo de profesionales altamente competentes, dispuestos a colocar tus ideas y llevarlas al siguiente nivel.
+          Para
+          más información sobre nuestros servicios, <a href="#">haz clic aquí</a>.
+        </p>
+        <img src="../img/Prodev_Logo.png" alt="Logo de ProDev">
+      </div>
+    </section>
+    <section class="form-container contact-section">
+      <h2>Formulario de contacto</h2>
+      <p>Si tienes un proyecto en mente, puedes contactar con nosotros en el siguiente formulario.</p>
+      <form>
+        <div class="contact-form-row">
+          <label for="nombre" class="contact-form-column">Nombre:</label>
+          <div class="contact-form-column">
+            <input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" />
+          </div>
+          <label for="correo" class="contact-form-column">Correo electrónico:</label>
+          <div class="contact-form-column">
+            <input type="email" name="correo" id="correo" placeholder="alguien@ejemplo.com" />
+          </div>
+        </div>
+        <div class="contact-form-row">
+          <label for="ciudad" class="contact-form-column">Ciudad:</label>
+          <div class="contact-form-column">
+            <input type="text" name="ciudad" id="ciudad" placeholder="Barranquilla, Bogotá, Nueva York" />
+          </div>
+          <label for="telefono" class="contact-form-column">Teléfono:</label>
+          <div class="contact-form-column">
+            <input type="tel" name="telefono" id="telefono" placeholder="605 323 6542" />
+          </div>
+        </div>
+        <div class="contact-form-row">
+          <label for="asunto" class="contact-form-column">Título del proyecto:</label>
+          <div class="contact-form-column">
+            <input type="text" name="asunto" id="asunto" placeholder="Cuéntanos tu consulta" />
+          </div>
+          <label for="tipo-proyecto" class="contact-form-column">Tipo de proyecto:</label>
+          <div class="contact-form-column">
+            <select name="tipo_proyecto" id="tipo-proyecto">
+              <option value="">Seleccione ...</option>
+              <option value="personal">Portafolio personal</option>
+              <option value="tienda">Tienda en línea</option>
+              <option value="app">Aplicación web</option>
+              <option value="mobile">Aplicación móvil</option>
+              <option value="refactor">Modernización</option>
+              <option value="soporte">Soporte de aplicación</option>
+            </select>
+          </div>
+        </div>
+        <input type="submit" value="Enviar" />
+        <input type="reset" value="Limpiar" />
+      </form>
+    </section>
+  </main>
+  <footer>
+    <address id="contact-info">
+      <span>Prodev - Software de Calidad</span><br />
+      <span>www.prodev.co</span><br />
+      <span>Carrera 45 N° 70-81</span><br />
+      <span>Barranquilla, Colombia</span><br />
+      <span>Teléfono: (+57) 605 365 9631</span><br />
+      <span>Celular: (+57) 312 659 6328</span><br />
+    </address>
+  </footer>
+</body>
+
+</html>
